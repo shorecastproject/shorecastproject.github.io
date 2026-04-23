@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;100;500&display=swap');
+
+
+ *{
+    font-family: Inter;
+    font-weight: 100;
+ }
+
+body {
+margin: 0 auto;
+}
+
+
+/* Tête de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+    /*background-color: rgb(50, 205, 151);*/
+}
+header.header img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+section.top-page {
+    background-size: cover;
+    height: 10vh;
+    padding: 25px;
+}
+
+
+/* Menu navigation */
+
+nav.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li{
+    color: black;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+nav.nav li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.top-line {
+    height: 2px;                  /* épaisseur du trait */          
+    background-color: black;       /* couleur */
+}
+
+/* optionnel : espacement au-dessus et en-dessous */
+.top-line-left {
+    width: 100px;
+    margin-top: 0;
+    margin-left: 30px ;
+    margin-right: 10px;
+}
+
+.top-line-right {
+    margin-bottom: 0;
+    width: 600px;
+    margin-left: 40px ;
+    margin-right: 30px;
+
+}
+
+/* Section Home */
+
+section.home {
+    padding: 60px 20px;        /* espace haut et bas */
+    text-align: center;
+}
+
+.landing-page .intro {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #2c3e50;
+    max-width: 700px;
+    margin: 0 auto;            /* centre le texte */
+}
+
+
+
+/* Section web sites */
+
+section.soon {
+    text-align: center;
+    font-size: 25px;
+    padding: 60px 20px;    
+}
+
+
+/* Section Contacts */
+
+section.footer img {
+     width: 30px;
+}
+
+section.footer li {
+    height: 5vh;
+    padding: 5px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center; /* centre verticalement le texte par rapport à l'icône */
+  gap: 20px; /* espace entre l'icône et le texte */
+}
+
+.footer-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.bottom {
+    width: 40%;
+    margin: 20px auto; 
+}
+
