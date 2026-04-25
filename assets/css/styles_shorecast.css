@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;100;500&display=swap');
 
 
- *{
-    font-family: Inter;
-    font-weight: 100;
- }
 
-body {
-margin: 0 auto;
+a {
+    text-decoration: none;
 }
 
+h1 {
+    color:#9C7558;
+    font-weight:500;
+}
+
+.logo {
+    color: #9C7558;     
+    font-weight: 600;    
+}
+
+
+body {
+    margin: 0 auto;
+}
+
+.main-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
 
 /* Tête de page */
 
@@ -38,7 +54,7 @@ nav.nav {
     gap: 10px;
     justify-content: space-between;
     list-style: none;
-    width: 400px;
+    width: 500px;
     margin-left: 30px;
 }
 
@@ -46,19 +62,17 @@ nav.nav li{
     color: black;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 18px;
-    font-family: 'Inter', sans-serif;
+    font-size: 20px;
 }
 
 nav.nav li a{
     color: black;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
 }
 
 .top-line {
     height: 2px;                  /* épaisseur du trait */          
-    background-color: black;       /* couleur */
+    background-color: #0077B6;;       /* Couleur */
 }
 
 /* optionnel : espacement au-dessus et en-dessous */
@@ -67,6 +81,7 @@ nav.nav li a{
     margin-top: 0;
     margin-left: 30px ;
     margin-right: 10px;
+    color: #0077B6;
 }
 
 .top-line-right {
@@ -74,6 +89,7 @@ nav.nav li a{
     width: 600px;
     margin-left: 40px ;
     margin-right: 30px;
+    color: #0077B6;
 
 }
 
@@ -85,24 +101,24 @@ section.home {
 }
 
 .landing-page .intro {
-    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #2c3e50;
-    max-width: 700px;
-    margin: 0 auto;            /* centre le texte */
+    color:black;
+    max-width: 1000px;
+    margin: 0 auto;  
+    text-align:justify;          /* centre le texte */
 }
 
-
+/* Two columns  HOME  */
+.two-columns {
+    display: flex;
+    gap: 30px;              /* espace entre les blocs */
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 /* Section web sites */
-
-section.soon {
-    text-align: center;
-    font-size: 25px;
-    padding: 60px 20px;    
-}
 
 
 /* Section Contacts */
@@ -122,13 +138,57 @@ section.footer li {
   gap: 20px; /* espace entre l'icône et le texte */
 }
 
-.footer-item a{
-    color: black;
-    text-decoration: none;
-}
 
 .bottom {
     width: 40%;
     margin: 20px auto; 
 }
 
+/* Create events */
+
+.events {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.events-list {
+    max-height: 300px;      
+    overflow-y: auto;      
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    padding-right: 10px;
+}
+
+.event-card {
+    min-width: 250px;
+    flex: 0 0 auto;
+
+    background: #f5f7fa;
+    padding: 15px;
+    border-radius: 10px;
+
+    scroll-snap-align: start;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+/* Overview */
+
+.nav2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
