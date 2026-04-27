@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;100;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 a {
@@ -120,6 +119,16 @@ section.home {
 
 /* Section web sites */
 
+.item  {
+  display: flex;
+  align-items: center; /* centre verticalement le texte par rapport à l'icône */
+  gap: 20px; /* espace entre l'icône et le texte */
+}
+
+.item img{
+  width: 100px;   /* ajuste la taille */
+  height: auto;
+}
 
 /* Section Contacts */
 
@@ -184,6 +193,13 @@ section.footer li {
     margin-top: 5px;
 }
 
+.list2 {
+    font-weight:600;
+}
+
+.underline {
+  text-decoration: underline;
+}
 
 /* Overview */
 
@@ -191,4 +207,29 @@ section.footer li {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+/* Consortium */
+
+.consortium {
+  display: flex;
+  /* justify-content: center; */
+  gap: 80px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.consortium .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.consortium .item img {
+  width: 180px;
+  height: auto;
+  display: block;
 }
