@@ -1,0 +1,22 @@
+/* Section Contacts */
+
+section.footer img {
+     width: 30px;
+}
+
+section.footer li {
+    height: 5vh;
+    padding: 5px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center; /* centre verticalement le texte par rapport à l'icône */
+  gap: 20px; /* espace entre l'icône et le texte */
+}
+
+
+.bottom {
+    width: 40%;
+    margin: 20px auto; 
+}

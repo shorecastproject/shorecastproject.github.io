@@ -1,0 +1,12 @@
+/* Section web sites */
+
+.item  {
+  display: flex;
+  align-items: center; /* centre verticalement le texte par rapport à l'icône */
+  gap: 20px; /* espace entre l'icône et le texte */
+}
+
+.item img{
+  width: 100px;   /* ajuste la taille */
+  height: auto;
+}

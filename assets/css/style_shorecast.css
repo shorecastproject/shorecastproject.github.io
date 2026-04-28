@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Delete underline for href */
+a {
+    text-decoration: none; 
+}
+
+/* Orange color for all Title */
+h1 {
+    color: #FF7A00;
+    font-weight:500;
+}
+
+/* Important word in orange */
+.orange_word {
+    color: #FF7A00;     
+    font-weight: 600;    
+}
+
+/* Delete Default margin */
+body {
+    margin: 0;
+}
+
+/* Same container for all */
+.main-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px 20px; 
+    
+}
+/* padding: interior space */
+
+
+
+
