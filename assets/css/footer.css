@@ -11,8 +11,8 @@ section.footer li {
 
 .footer-item {
   display: flex;
-  align-items: center; /* centre verticalement le texte par rapport à l'icône */
-  gap: 20px; /* espace entre l'icône et le texte */
+  align-items: center; 
+  gap: 20px; 
 }
 
 

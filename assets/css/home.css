@@ -6,13 +6,13 @@ section.home {
     line-height: 1.6;
     max-width: 1200px;
     margin: 0 auto;  
-    text-align:justify;          /* centre le texte */
+    text-align:justify;          
 }
 
 /* Two columns  HOME  */
 .two-columns {
     display: flex;
-    gap: 80px;              /* espace entre les blocs */
+    gap: 80px;             
     justify-content: space-between;
     align-items: flex-start;
 }

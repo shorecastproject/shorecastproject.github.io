@@ -1,10 +1,8 @@
-
 /* Tête de page */
 
 header.header {
     display: flex;
     align-items: center;
-    /*background-color: rgb(50, 205, 151);*/
 }
 header.header img {
     width: 100px;
@@ -42,11 +40,11 @@ nav.nav li a{
 }
 
 .top-line {
-    height: 2px;                  /* épaisseur du trait */          
-    background-color: black;;       /* Couleur */
+    height: 2px;                           
+    background-color: black;;      
 }
 
-/* optionnel : espacement au-dessus et en-dessous */
+
 .top-line-left {
     width: 100px;
     margin-top: 0;
