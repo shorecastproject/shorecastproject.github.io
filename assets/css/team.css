@@ -1,0 +1,38 @@
+/* Consortium */
+
+.consortium {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 70px;
+}
+
+.consortium .item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+  width: 400px;
+  
+}
+
+
+.consortium .item img {
+  width: 230px;
+  height: auto;
+  flex-shrink: 0; 
+}
+
+.consortium .item .text {
+
+  font-size: 15px;
+  line-height: 1.4;
+  width: 300px;
+  text-align: center;
+}
+.consortium .item .text b {
+    font-size: 13px;
+}
