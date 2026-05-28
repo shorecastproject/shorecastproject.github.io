@@ -21,6 +21,9 @@ h1 {
 /* Delete Default margin */
 body {
     margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: Verdana, sans-serif;
 }
 
 /* Same container for all */

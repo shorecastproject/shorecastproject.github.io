@@ -1,0 +1,25 @@
+.under {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px 20px; 
+    display: flex;
+    flex-direction: column;  /* 👈 empile verticalement */
+    align-items: flex-start;     /* 👈 centre horizontalement */
+}
+.logo {
+  display: flex;
+  flex-direction: row;   /* horizontal (par défaut, mais explicite) */
+  align-items: center;   /* centre verticalement */
+  gap: 15px;
+}
+.logo img {
+    width: 100px;
+    border-radius: 20%;
+}
+
+.bottom {
+    width: 40%;
+    margin: 20px auto; 
+    margin-left: auto;   /* 👈 centre horizontalement */
+    margin-right: auto;
+}

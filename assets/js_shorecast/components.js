@@ -11,6 +11,7 @@ async function loadComponent(selector, url) {
 
 document.addEventListener("DOMContentLoaded", () => {
   loadComponent("#header-placeholder", "/components/header.html");
+  loadComponent("#under-placeholder", "/components/under_header.html");
   loadComponent("#footer-placeholder", "/components/footer.html");
   loadComponent("#home-placeholder","/pages/home.html");
 });
