@@ -1,17 +1,13 @@
 .under {
-    max-width: 1500px;
+    max-width: 1600px;
     margin: 0 auto;
-    padding: 40px 20px; 
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start;     
+    padding: 40px 20px;  
 }
 
 .under-logos {
   display: flex;
   align-items: center;
-  width: 100%;    
-  box-sizing: border-box; 
+  width: 100%;     
   padding: 0 auto;
 }
 .logo-shorecast {
@@ -19,7 +15,7 @@
   display: flex;
   flex-direction: row;   
   align-items: center;   
-  gap: 15px;
+  gap: 10px;
 }
 .logo-shorecast img {
     width: 100px;
@@ -38,7 +34,7 @@
 
 .bottom {
     width: 40%;
-    margin: 20px auto; 
+    margin: 40px auto; 
     margin-left: auto;   
     margin-right: auto;
 }
