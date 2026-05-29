@@ -1,28 +1,60 @@
 /* Section Contacts */
 
-section.footer {
-    display: flex;
-    gap: 80px;             
-    justify-content: space-between;
-    align-items: flex-start;
-}
 section.footer img {
-     width: 30px;
+  width: 30px;
 }
 
 section.footer li {
-    height: 5vh;
-    padding: 5px;
+  height: 5vh;
+  padding: 5px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 12rem;     /* marge gauche */
+  padding-right: 10rem;        /* 16px à gauche et à droite */
+  box-sizing: border-box; /* évite tout débordement */
+  padding: 0 auto;
+}
+
+.footer-mail {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-logo-list {
+  flex: 1;
+  display: flex;
+  gap: 3px;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.footer-logo-list li img {
+    width: 60%;
 }
 
 .footer-item {
   display: flex;
-  align-items: center; 
-  gap: 20px; 
+  align-items: center;
+  gap: 20px;
 }
 
-
 .bottom {
-    width: 40%;
-    margin: 20px auto; 
+  width: 40%;
+  margin: 20px auto;
+}
+
+.logo-safe {
+  position: relative;
+  left: 100px; /* ajustez selon le décalage voulu */
 }
