@@ -78,6 +78,7 @@
 
 #search-results {
   position: absolute;
+  display: none;
   top: 45px;
   width: 100%;
   max-width: 400px;
