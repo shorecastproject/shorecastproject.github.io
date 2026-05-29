@@ -1,38 +1,47 @@
 /* Tête de page */
 
+/* Tête de page */
 header.header {
-    display: flex;
-    align-items: center;
-
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* centre le wrapper */
+  z-index: 10;
 }
-header.header img {
-    width: 200px;
-    /* border-radius: 50%; */
+
+.header-inner {
+  width: 100%;
+  max-width: 1400px; /* ← même valeur que ton contenu en dessous */
+  display: flex;
+  align-items: center;
 }
 
 section.top-page {
-    background-size: cover;
-    height: 18vh;
-    padding: 25px;
-
-
-    background-image: url("/assets/images_shorecast/beach_banner_white.png");
-    background-size: 2000px 230px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
+
+.banner-image {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
 
 /* Menu navigation */
 
+
 nav.nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-between;
-    list-style: none;
-    width: 600px;
-    margin-left: 210px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+  margin-left: 12%;
 }
 
 nav.nav li{

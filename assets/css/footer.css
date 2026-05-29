@@ -1,5 +1,11 @@
 /* Section Contacts */
 
+section.footer {
+    display: flex;
+    gap: 80px;             
+    justify-content: space-between;
+    align-items: flex-start;
+}
 section.footer img {
      width: 30px;
 }
