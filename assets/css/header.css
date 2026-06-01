@@ -3,7 +3,7 @@
 /* Tête de page */
 header.header {
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: 0;
   width: 100%;
   display: flex;
@@ -39,7 +39,7 @@ nav.nav {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  gap: 2rem;
+  gap: 5rem;
   align-items: center;
   margin-left: 12%;
 }
