@@ -6,7 +6,7 @@ section.home {
     line-height: 1.6;
     max-width: 1200px;
     margin: 0 auto;  
-    text-align:justify;          
+        
 }
 
 /* Two columns  HOME  */
@@ -15,6 +15,12 @@ section.home {
     gap: 80px;             
     justify-content: space-between;
     align-items: flex-start;
+}
+
+/* left column about */
+
+.left-c {
+    text-align:justify;  
 }
 
 /* Upcoming events */

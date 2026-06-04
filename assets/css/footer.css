@@ -1,9 +1,5 @@
 /* Section Contacts */
 
-section.footer img {
-  width: 30px;
-}
-
 section.footer li {
   height: 5vh;
   padding: 5px;
@@ -29,6 +25,10 @@ section.footer li {
   padding: 0;
 }
 
+.footer-mail img {
+  width: 40px;
+}
+
 .footer-logo-list {
   flex: 1;
   display: flex;
@@ -40,7 +40,7 @@ section.footer li {
   padding: 0;
 }
 .footer-logo-list li img {
-    width: 60%;
+    width: 50%;
 }
 
 .footer-item {
@@ -57,4 +57,14 @@ section.footer li {
 .logo-safe {
   position: relative;
   left: 100px; /* ajustez selon le décalage voulu */
+}
+
+.logo-anr {
+  display: flex;
+  flex-direction: row;   
+  align-items: center;   
+  gap: 15px;
+}
+.logo-anr img {
+  width: 100px;
 }

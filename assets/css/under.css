@@ -9,9 +9,9 @@
   align-items: center;
   width: 100%;     
   padding: 0 auto;
+  gap: 480px;
 }
 .logo-shorecast {
-  flex:1;
   display: flex;
   flex-direction: row;   
   align-items: center;   
@@ -22,15 +22,7 @@
     border-radius: 20%;
 }
 
-.logo-anr {
-  display: flex;
-  flex-direction: row;   
-  align-items: center;   
-  gap: 15px;
-}
-.logo-anr img {
-    width: 100px;
-}
+
 
 .bottom {
     width: 40%;
@@ -43,17 +35,15 @@
 /* For research  */
 
 .search-bar {
-  flex: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   gap: 8px;
-  padding: 0 100px 0 0;
 }
 
 .search-bar input {
-  width: 100%;
+  width: 200%;
   max-width: 400px;
   padding: 8px 16px;
   border: 1px solid #ccc;
@@ -76,7 +66,7 @@
   position: absolute;
   display: none;
   top: 45px;
-  width: 100%;
+  width: 200%;
   max-width: 400px;
   background: white;
   border: 1px solid #ddd;
