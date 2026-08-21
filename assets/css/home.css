@@ -85,3 +85,17 @@ section.home {
     text-align: center;
 
 }
+
+.image {
+    gap: 30px;
+    /* flex-direction: column; */
+    display: flex;
+    justify-content:center ;
+}
+
+.image img {
+  width: 1000px;
+  height: 400px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+}
