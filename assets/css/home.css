@@ -1,14 +1,5 @@
 /* Section Home */
 
-section.home {
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    max-width: 1200px;
-    margin: 0 auto;  
-        
-}
-
 /* Two columns  HOME  */
 .two-columns {
     display: flex;
@@ -32,7 +23,7 @@ section.home {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:30px
+    gap:0px
     
 }
 
@@ -45,6 +36,7 @@ section.home {
     gap: 12px;
 
     padding-right: 10px;
+    margin-bottom: 40px;
 }
 
 .event-card {
@@ -77,25 +69,51 @@ section.home {
 }
 
 .pulsante {
-    width: 200px;
-    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 180px;
+    height: 42px;
+    padding: 0 20px;
+
     background: #5BB8B3;
     color: white;
-    border-radius: 10px;
-    text-align: center;
 
+    border: 1px solid #4da7a2;
+    border-radius: 4px;
+
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pulsante:hover {
+    background: #4da7a2;
+    border-color: #438f8b;
 }
 
 .image {
-    gap: 30px;
     /* flex-direction: column; */
     display: flex;
     justify-content:center ;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.image i {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 15px;
 }
 
 .image img {
+  display: block;
   width: 1000px;
   height: 400px;
   flex-shrink: 0;
-  margin-bottom: 40px;
 }

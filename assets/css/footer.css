@@ -3,6 +3,7 @@
 section.footer li {
   height: 5vh;
   padding: 5px;
+  
 }
 
 .footer-logo {
@@ -23,6 +24,7 @@ section.footer li {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 .footer-mail img {
@@ -48,6 +50,7 @@ section.footer li {
   display: flex;
   align-items: center;
   gap: 20px;
+  font-size: 18px;
 }
 
 .bottom {
@@ -65,6 +68,7 @@ section.footer li {
   flex-direction: row;   
   align-items: center;   
   gap: 15px;
+  font-size: 18px;
 }
 .logo-anr img {
   width: 200px;

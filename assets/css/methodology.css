@@ -6,6 +6,10 @@
     width: 1400px;
 }
 
+.image i {
+  margin-top: 300px;
+}
+
 .image img {
   /* width: 300px; */
   height: auto;

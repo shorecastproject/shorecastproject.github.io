@@ -8,20 +8,20 @@ a {
 
 /* Orange color for all Title */
 h1 {
-    color: #FF7A00;
     font-weight:500;
+    font-size: 45px;
 }
 
 /* Important word in orange */
 .orange_word {
-    color: #FF7A00;     
+    color:  #C47A45;     
     font-weight: 600;    
 }
 
 /* Delete Default margin */
 body {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 10px;
     line-height: 1.6;
     font-family: Verdana, sans-serif;
 }
@@ -31,14 +31,12 @@ body {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0px 20px; 
+    font-size: 18px;
+    
     
 }
 
 
-/* padding: interior space */
-
-
-/* For references */
 
 
 
