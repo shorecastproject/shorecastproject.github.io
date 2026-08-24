@@ -3,7 +3,7 @@
 /* Tête de page */
 header.header {
   position: absolute;
-  top: 60px;
+  top: 40px;
   left: 0;
   width: 100%;
   display: flex;
@@ -101,6 +101,8 @@ nav.nav li a{
 .submenu li a {
   display: block;
   padding: 3px 5px; 
+  font-size: 16px;         /* taille */
+  font-weight: 500;
 }
 
 /* Affichage au survol */

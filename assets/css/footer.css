@@ -32,15 +32,16 @@ section.footer li {
 .footer-logo-list {
   flex: 1;
   display: flex;
-  gap: 3px;
+  gap: 40px;
   list-style: none;
   justify-content: flex-end;
   align-items: center;
   margin: 0;
   padding: 0;
+  padding-bottom: 30px;
 }
 .footer-logo-list li img {
-    width: 50%;
+    width: 100%;
 }
 
 .footer-item {
@@ -56,7 +57,7 @@ section.footer li {
 
 .logo-safe {
   position: relative;
-  left: 100px; /* ajustez selon le décalage voulu */
+  left: 30px; /* ajustez selon le décalage voulu */
 }
 
 .logo-anr {
@@ -66,5 +67,5 @@ section.footer li {
   gap: 15px;
 }
 .logo-anr img {
-  width: 100px;
+  width: 200px;
 }
