@@ -9,7 +9,7 @@ a {
 /* Orange color for all Title */
 h1 {
     font-weight:500;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 /* Important word in orange */
@@ -31,9 +31,7 @@ body {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0px 20px; 
-    font-size: 18px;
-    
-    
+    font-size: 17px;
 }
 
 

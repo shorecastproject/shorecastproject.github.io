@@ -2,6 +2,7 @@
 
 /* Two columns  HOME  */
 .two-columns {
+    
     display: flex;
     gap: 80px;             
     justify-content: space-between;
@@ -113,7 +114,7 @@
 
 .image img {
   display: block;
-  width: 1000px;
-  height: 400px;
+  width: 1100px;
+  height: auto;
   flex-shrink: 0;
 }

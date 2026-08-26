@@ -53,9 +53,12 @@ section.footer li {
   font-size: 18px;
 }
 
-.bottom {
-  width: 40%;
-  margin: 20px auto;
+.bottom_foot {
+    width: 40%;
+    margin: 40px auto; 
+    margin-left: 600px;   
+    margin-right: auto;
+    height: 1px;
 }
 
 .logo-safe {
