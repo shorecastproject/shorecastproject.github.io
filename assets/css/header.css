@@ -10,24 +10,24 @@ header.header {
 }
 
 .header-inner {
-  max-width: 1500px; /* ← même valeur que ton contenu en dessous */
+  width: 1500px; /* ← même valeur que ton contenu en dessous */
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 
 }
 
 section.top-page {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .banner-image {
     width: 100%;
     height: auto;
-
     display: block;
 }
 
@@ -41,7 +41,6 @@ nav.nav {
   list-style: none;
   gap: 5rem;
   align-items: center;
-  margin-left: 0;
 }
 
 nav.nav li{
