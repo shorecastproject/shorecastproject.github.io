@@ -4,18 +4,18 @@
 header.header {
   position: absolute;
   top: 40px;
-  left: 0;
+
   width: 100%;
-  display: flex;
-  justify-content: flex-start; /* centre le wrapper */
   z-index: 10;
 }
 
 .header-inner {
-  width: 100%;
-  max-width: 1400px; /* ← même valeur que ton contenu en dessous */
+  max-width: 1500px; /* ← même valeur que ton contenu en dessous */
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   align-items: center;
+
 }
 
 section.top-page {
@@ -41,7 +41,7 @@ nav.nav {
   list-style: none;
   gap: 5rem;
   align-items: center;
-  margin-left: 16%;
+  margin-left: 0;
 }
 
 nav.nav li{
