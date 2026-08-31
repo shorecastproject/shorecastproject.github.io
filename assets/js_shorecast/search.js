@@ -10,6 +10,7 @@ async function indexPages() {
     "/pages/overview/objectives.html",
     "/pages/overview/methodology.html",
     "/pages/overview/consortium.html",
+    "/pages/link.html",
     "/components/footer.html",
     "/components/header.html",
     "/components/under_header.html",
